@@ -2,6 +2,7 @@ import React from 'react'
 import Androids from "../../Assets/googleplay.png";
 import Iso from "../../Assets/AppleStore.png";
 import Gif from "../../Assets/Gif.gif";
+import { Link } from 'react-router-dom';
 
 function AppStore() {
   return (
@@ -12,12 +13,12 @@ function AppStore() {
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-once="true" className="space-y-6 max-w-xl mx-auto">
                         <h1 className="text-2xl text-center sm:text-left sm:text-4xl font-semibold dark:text-gray-400 text-gray-700">Foodly is Available for Android & IOS</h1>
                         <div className="flex flex-wrap justify-center sm:justify-start items-center">
-                        <a href='#'>
+                        <Link to="#">
                             <img src={Androids} alt='playStore' className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" />
-                        </a>
-                        <a href='#'>
+                        </Link>
+                        <Link to='#'>
                             <img src={Iso} alt='ISO' className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" />
-                        </a>
+                        </Link>
                     </div>
                     </div> 
                     <div data-aos="zoom-in" data-aos-duration="300">

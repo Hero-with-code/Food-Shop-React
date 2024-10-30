@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import Navbar from '../Navbar/Navbar.js';
+
 import Hero from '../Hero/Hero.js';
 import Service from "../Services/Service.js"
 import Banner from '../Banner/Banner.js';
@@ -23,7 +23,6 @@ function Home() {
   return (
     <>
         <div className="bg-white dark:">
-              <Navbar />
               <Hero />
               <Service />
               <Banner />

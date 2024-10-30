@@ -4,6 +4,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook, FaLocationArrow, FaMobileAlt } from "react-icons/fa";
 import { SiLinkedin } from "react-icons/si";
 import { ImYoutube } from "react-icons/im";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -22,47 +23,47 @@ function Footer() {
                         </div>
                         <div className="flex items-center gap-3 mt-3">
                         <FaMobileAlt />
-                            <p>+91 911 704 8402</p>
+                            <Link to="#"><p>+91 911 704 8402</p></Link>
                         </div>
                          {/* Social Media */}
                         <div className="flex items-center gap-3 mt-6">
-                        <a href='#'>
+                        <Link to='#'>
                         <RiInstagramFill className="text-3xl" />
-                        </a>
-                        <a href='#'>
+                        </Link>
+                        <Link to='#'>
                         <FaFacebook className="text-3xl" />
-                        </a>
-                        <a href='#'>
+                        </Link>
+                        <Link to='#'>
                         <SiLinkedin className="text-3xl" />
-                        </a>
-                        <a href='#'>
+                        </Link>
+                        <Link to='#'>
                         <ImYoutube className="text-3xl" />
-                        </a>
+                        </Link>
                     </div> 
                 </div>           
                     <div className="grid grid-cols-3 sm:grid-cols-3 col-span-2 md:pl-10">                   
                         <div className="py-8 px-4">
                             <h1 className="mb-3 text-2xl font-bold text-justify sm:text-left">Details Here</h1>
-                            <a href='#'><h2>Home</h2></a>
-                            <a href='#'><h2 className="mt-4">About</h2></a>
-                            <a href='#'><h2 className="mt-4">Service</h2></a>
-                            <a href='#'><h2 className="mt-4">Login</h2></a>
+                            <Link to='#'><h2>Home</h2></Link>
+                            <Link to='#'><h2 className="mt-4">About</h2></Link>
+                            <Link to='#'><h2 className="mt-4">Service</h2></Link>
+                            <Link to='#'><h2 className="mt-4">Login</h2></Link>
                             </div>
 
                             <div className="py-8 px-4">
                             <h1 className="mb-3 text-2xl font-bold text-justify sm:text-left">Details Here</h1>
-                            <a href='#'><h2>Home</h2></a>
-                            <a href='#'><h2 className="mt-4">About</h2></a>
-                            <a href='#'><h2 className="mt-4">Service</h2></a>
-                            <a href='#'><h2 className="mt-4">Login</h2></a>
+                            <Link to='#'><h2>Home</h2></Link>
+                            <Link to='#'><h2 className="mt-4">About</h2></Link>
+                            <Link to='#'><h2 className="mt-4">Service</h2></Link>
+                            <Link to='#'><h2 className="mt-4">Login</h2></Link>
                             </div>
 
                             <div className="py-8 px-4">
                             <h1 className="mb-3 text-2xl font-bold text-justify sm:text-left">Details Here</h1>
-                            <a href='#'><h2>Home</h2></a>
-                            <a href='#'><h2 className="mt-4">About</h2></a>
-                            <a href='#'><h2 className="mt-4">Service</h2></a>
-                            <a href='#'><h2 className="mt-4">Login</h2></a>
+                            <Link to='#'><h2>Home</h2></Link>
+                            <Link to='#'><h2 className="mt-4">About</h2></Link>
+                            <Link to='#'><h2 className="mt-4">Service</h2></Link>
+                            <Link to='#'><h2 className="mt-4">Login</h2></Link>
                             </div>
                     </div> 
                 </div>
