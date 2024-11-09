@@ -9,7 +9,7 @@ const ServiceData = [
         description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
     },
     {
-        id: 3,
+        id: 2,
         img: b1,
         name: "Chicken Kari",
         description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
@@ -27,25 +27,25 @@ const ServiceData = [
         description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
     },
     {
-        id: 1,
+        id: 5,
         img: b1,
         name: "Briyani",
         description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
     },
     {
-        id: 3,
+        id: 6,
         img: b1,
         name: "Chicken Kari",
         description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
     },
     {
-        id: 3,
+        id: 7,
         img: b1,
         name: "Cold Foffe",
         description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
     },
     {
-        id: 4,
+        id: 8,
         img: b1,
         name: "Tea Foffe",
         description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
