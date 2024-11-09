@@ -26,6 +26,30 @@ const ServiceData = [
         name: "Tea Foffe",
         description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
     },
+    {
+        id: 1,
+        img: b1,
+        name: "Briyani",
+        description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
+    },
+    {
+        id: 3,
+        img: b1,
+        name: "Chicken Kari",
+        description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
+    },
+    {
+        id: 3,
+        img: b1,
+        name: "Cold Foffe",
+        description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
+    },
+    {
+        id: 4,
+        img: b1,
+        name: "Tea Foffe",
+        description: "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit"
+    },
 ]
 function Service() {
   return (
